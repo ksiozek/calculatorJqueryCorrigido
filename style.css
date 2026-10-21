@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 460px;
+  margin: 30px auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 14px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* borda vermelha nas notas inválidas */
+.erro {
+  border: 2px solid red;
+}
+
+/* começa escondido; o jQuery mostra com .show() */
+#blocoFinal {
+  display: none;
+  margin-top: 18px;
+}
+
+#resultado,
+#resultadoFinal {
+  font-weight: bold;
+  font-size: 18px;
+}

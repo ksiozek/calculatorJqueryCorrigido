@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" href="../style/style.css">
+ 
+ <title>Calculadora de Médias</title>
+ <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+<h2>Calculadora de Médias</h2>
+
+<label>Nome:</label>
+<input type="text" id="nome">
+
+<label>Nota 1º Bim</label> <input type="text" class="nota" id="n1">
+<label>Nota 2º Bim</label> <input type="text" class="nota" id="n2">
+<label>Nota 3º Bim</label> <input type="text" class="nota" id="n3">
+<label>Nota 4º Bim</label> <input type="text" class="nota" id="n4">
+
+<button type="button" id="btnCalcular">Calcular média</button>
+
+<label>Média:</label>
+<input type="text" id="media" readonly>
+<p id="resultado"></p>
+
+<!-- Bloco que só aparece se o aluno ficar de FINAL -->
+
+<div id="blocoFinal">
+    <label>Nota da prova final (professor): </label>
+    <input type="text" id="notaFinal">
+    <button type="button" id="btnFinal">Calcular resultado da final</button>
+    <p id="resultadoFinal"></p>
+</div>
+
+
+<script src="../script/script.js"></script>
+</body>
+</html>
